@@ -4,10 +4,13 @@ block variables
   - var slug = 'icons'
   - var parent = 'elements'
   - var title = 'Icons - Elements - Spectre.css CSS Framework'
-  - var description = 'Spectre.css is a lightweight, responsive and modern CSS framework for faster and extensible development. Spectre provides basic styles for typography and elements, flexbox based responsive layout system, pure CSS components and utilities with best practice coding and consistent design language.'
+  - var description = 'Icons are single-element, responsive and pure CSS icons. Spectre.css CSS Framework is a lightweight, responsive and modern CSS framework for faster and extensible development.'
 
 block docs-content
   +docs-heading('icons', 'Icons')
+    p
+      small.label.label-primary.mr-2 CSS ONLY
+
     include ../_layout/_ad-g.pug
 
     p
@@ -141,6 +144,10 @@ block docs-content
         button.btn.btn-primary.btn-action.btn-lg
           i.icon.icon-upload
         p icon-upload
+      .column.col-3.col-md-6
+        button.btn.btn-primary.btn-action.btn-lg
+          i.icon.icon-copy
+        p icon-copy
 
     +docs-subheading('icons-object', 'Object icons')
 
